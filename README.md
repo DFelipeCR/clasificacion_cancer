@@ -44,7 +44,10 @@ A continuacion se creo la API donde su endpoint es "/predict" y es del tipo post
 }
 
 y genera una prediccion de 0 si es un tumor benigno o de un 1 si es un tumor maligno. esto se puede ver a continuación:
+Tumor maligno (1):
 ![image](https://github.com/user-attachments/assets/085e2b8f-bef4-404a-aeaa-df35610ed505)
+Tumor benigno (0):
+![image](https://github.com/user-attachments/assets/f78ac063-9f6e-4126-8487-f729e1a3f4b9)
 
 Luego de funcionar en un entorno local se creo un puente a través de ngrok:
 ![image](https://github.com/user-attachments/assets/487e5a24-4c2c-402a-ac20-28649e8148da)
