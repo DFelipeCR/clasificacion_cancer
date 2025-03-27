@@ -1,0 +1,65 @@
+2025-03-27 14:41:56,579 - INFO - Modelo cargado exitosamente.
+2025-03-27 14:41:56,589 - INFO - Iniciando servidor FastAPI en http://0.0.0.0:8000
+2025-03-27 14:41:56,590 - INFO - Prueba de log: La aplicación está iniciando.
+2025-03-27 14:42:31,320 - INFO - Predicción realizada: [0]
+2025-03-27 14:42:42,395 - INFO - Predicción realizada: [0]
+2025-03-27 14:42:49,355 - INFO - Predicción realizada: [0]
+2025-03-27 14:44:35,502 - INFO - Predicción realizada: [0]
+2025-03-27 14:48:08,464 - INFO - Predicción realizada: [0]
+2025-03-27 14:59:16,989 - INFO - Modelo cargado exitosamente.
+2025-03-27 14:59:16,995 - INFO - Iniciando servidor FastAPI en http://0.0.0.0:8000
+2025-03-27 14:59:16,996 - INFO - Prueba de log: La aplicación está iniciando.
+2025-03-27 14:59:34,729 - INFO - Predicción realizada: [1]
+2025-03-27 15:16:11,583 - INFO - Predicción realizada: [1]
+2025-03-27 15:36:15,989 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Server.serve() done, defined at c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Felipe\AppData\Roaming\Python\Python38\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+  File "C:\Users\Felipe\AppData\Roaming\Python\Python38\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Felipe\AppData\Roaming\Python\Python38\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\asyncio\tasks.py", line 280, in __step
+    result = coro.send(None)
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\server.py", line 332, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+2025-03-27 15:36:16,141 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Server.serve() done, defined at c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\server.py:67> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\main.py", line 579, in run
+    server.run()
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "C:\Users\Felipe\AppData\Roaming\Python\Python38\site-packages\nest_asyncio.py", line 30, in run
+    return loop.run_until_complete(task)
+  File "C:\Users\Felipe\AppData\Roaming\Python\Python38\site-packages\nest_asyncio.py", line 92, in run_until_complete
+    self._run_once()
+  File "C:\Users\Felipe\AppData\Roaming\Python\Python38\site-packages\nest_asyncio.py", line 133, in _run_once
+    handle._run()
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\asyncio\tasks.py", line 360, in __wakeup
+    self.__step()
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\asyncio\tasks.py", line 280, in __step
+    result = coro.send(None)
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\server.py", line 69, in serve
+    await self._serve(sockets)
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 120, in __exit__
+    next(self.gen)
+  File "c:\Users\Felipe\AppData\Local\Programs\Python\Python38\lib\site-packages\uvicorn\server.py", line 332, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
